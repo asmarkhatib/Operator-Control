@@ -5,4 +5,4 @@ const palindrome = (number) => {
   // const result = Number(reverse);
   return number == reverse;
 };
-console.log(palindrome(123454321));
+console.log(palindrome(141));
