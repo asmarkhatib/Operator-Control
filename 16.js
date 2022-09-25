@@ -12,4 +12,4 @@ const fiboncci = (n) => {
   }
   return series;
 };
-console.log(fiboncci(8));
+console.log(fiboncci(5));
