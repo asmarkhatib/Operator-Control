@@ -4,7 +4,7 @@
 // const isPrimeNumber = function (number) {
 // if (number === 1) {
 //     console.log('1 is nither prime nor composite number');
-// } 
+// }
 // else if (number > 1) {
 //     for (let i = 2; i < number; i++) {
 //         if (number % i == 0) {
@@ -39,16 +39,28 @@
 // isPrimeNumber(21);
 //------------------------------------------------------
 
-
 const isPrime = (number) => {
     if(number < 2) {
         return 'Not Prime';
     }
-    for(let i = 2; i <= number; i++){
+    for(let i = 2; i < number; i++){
         if(number % i === 0){
             return 'Not Prime';
         }
     }
     return 'Prime';
 }
-console.log(isPrime(57))
+console.log(isPrime(21))
+
+// function PrimeAndComposite(number) {
+//   if (number < 2) {
+//     return "not prime";
+//   }
+//   for (i = 2; i < number; i++) {
+//     if (number % i == 0) {
+//       return "not prime";
+//     }
+//   }
+//   return "prime";
+// }
+// console.log(PrimeAndComposite(41));
