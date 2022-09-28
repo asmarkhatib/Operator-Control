@@ -64,3 +64,4 @@ console.log(isPrime(21))
 //   return "prime";
 // }
 // console.log(PrimeAndComposite(41));
+console.log(isPrime(57))
