@@ -21,4 +21,4 @@ const value = (num1, num2) => {
   }
   return quotient;
 };
-console.log(value(50, 2))
+console.log(value(6, 2))

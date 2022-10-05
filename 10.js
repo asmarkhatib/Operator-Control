@@ -13,4 +13,4 @@ const factorial = function (numbeR) {
         console.log(`The factorial of ${numbeR} is ${fact}`);
     }
 };
-factorial(8);
+factorial(4);
